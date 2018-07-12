@@ -6,21 +6,21 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: 📷Tography📸
-email: lantoniotrento@gmail.com
+title: 📷Fomofoto📸
+email: fomofoto83@gmail.com
 description: >
   Photography dimensions for hight level persons
 logo: "/assets/images/logo-horizontal.png"
 
 baseurl: "" # the subpath of your site, e.g. blog/ remember to put the / at the end
-url: "https://tography.github.io" # the base hostname & protocol for your site
+url: "https://fomofoto.github.io" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
 
 name: 'Antonio Trento'
 bio: >
   An entusiast web geek that love make good marketing strategies, create beautifull photos, install and mantain web platforms.
 author_image: "/assets/images/author.jpg"
-twitter_username: lantoniotrento
+twitter_username: fomofoto
 github_username:  antoniotrento
 
 # Google Analytics WHEN YOU LIKE TO HOST ONLY WITH GOOLE ANALYTICS (This configuration type is more quick in 
@@ -30,14 +30,14 @@ github_username:  antoniotrento
 # analytics_id: "UA-109407288-1"
 
 author :
-  name : Antonio Trento
-  email : lantoniotrento@gmail.com
-  github : tography/tography.github.io
-  twitter : lantoniotrento
-  facebook: lantoniotrento
+  name : Fomofoto
+  email : fomofoto83@gmail.com
+  github : fomofoto/fomofoto.github.io
+  twitter : fomofoto
+  facebook: fomofoto
   linkedin: antoniotrento
-  instagram: lantoniotrento
-  pinterest: antoniotrento
+  instagram: fomofoto
+  pinterest: fomofoto
   google: https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
   feedburner :
 
@@ -56,17 +56,17 @@ google :
 
 # data for jekyll-seo-tags plugin
 social:
-  name: lantoniotrento
+  name: fomofoto
   links:
-    - https://twitter.com/lantoniotrento
-    - https://www.facebook.com/lantoniotrento
+    - https://twitter.com/fomofoto
+    - https://www.facebook.com/fomofoto
     - https://www.linkedin.com/in/antoniotrento
     - https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
-    - https://github.com/tography/tography.github.io
+    - https://github.com/fomofoto/fomofoto.github.io
     
 
 twitter:
-  username: lantoniotrento
+  username: fomofoto
 
 facebook:
  app_id: 509727322725898 #the app id from https://developers.facebook.com/
