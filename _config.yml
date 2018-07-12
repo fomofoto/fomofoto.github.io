@@ -1,0 +1,87 @@
+# Welcome to Amplified for Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: 📷Tography📸
+email: lantoniotrento@gmail.com
+description: >
+  Photography dimensions for hight level persons
+logo: "/assets/images/logo-horizontal.png"
+
+baseurl: "" # the subpath of your site, e.g. blog/ remember to put the / at the end
+url: "https://tography.github.io" # the base hostname & protocol for your site
+paginate:	5 # The number of posts to show per page on your homepage
+
+name: 'Antonio Trento'
+bio: >
+  An entusiast web geek that love make good marketing strategies, create beautifull photos, install and mantain web platforms.
+author_image: "/assets/images/author.jpg"
+twitter_username: lantoniotrento
+github_username:  antoniotrento
+
+# Google Analytics WHEN YOU LIKE TO HOST ONLY WITH GOOLE ANALYTICS (This configuration type is more quick in 
+# terms of loading if compared with the combination of tag managet/optimize/analitycs downstairs)
+
+# uncomment to use--> 
+# analytics_id: "UA-109407288-1"
+
+author :
+  name : Antonio Trento
+  email : lantoniotrento@gmail.com
+  github : tography/tography.github.io
+  twitter : lantoniotrento
+  facebook: lantoniotrento
+  linkedin: antoniotrento
+  instagram: lantoniotrento
+  pinterest: antoniotrento
+  google: https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
+  feedburner :
+
+# MY GOOGLE MAPS FOOTER LOCATION IN ALL PAGES
+location:
+  latitude: 42.45999529999999
+  longitude: 14.156590800000004
+
+# WHEN YOU WANT TO HOST WITH THE COMBINATION OF GOOLE TAG MANAGER, ANALYTICS AND OPTIMIZE 
+# (tracking_id, optimize_id, tagmanager_id ARE REQUIRED FIELDS)
+google :
+    tracking_id : 'UA-121060011-1' # Id google analitics
+    optimize_id : 'GTM-T28VH29' # I'id di google optimize per A/B Testing
+    tagmanager_id: 'GTM-PLM44W6' # id di google tag manager
+    #ad_client: 'ca-pub-9204963049240271' # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
+
+# data for jekyll-seo-tags plugin
+social:
+  name: lantoniotrento
+  links:
+    - https://twitter.com/lantoniotrento
+    - https://www.facebook.com/lantoniotrento
+    - https://www.linkedin.com/in/antoniotrento
+    - https://plus.google.com/u/0/b/114870349902392641766/105909498949786982602
+    - https://github.com/tography/tography.github.io
+    
+
+twitter:
+  username: lantoniotrento
+
+facebook:
+ app_id: 509727322725898 #the app id from https://developers.facebook.com/
+ admins: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
+ publisher: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
+    
+disqus :
+    short_name : jorigamy
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  parse_block_html: true
+
+gems:
+  - jekyll-paginate
+  - jekyll-seo-tag

@@ -1,0 +1,39 @@
+
+{% if site.analytics_id %}
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+{% endif %}
+
+
+{% if site.google.tracking_id %}
+    {% include JB/analytics.html %}
+{% endif %}
+{% if site.google.ad_client %}
+    {% include JB/ad-block.html %}
+{% endif %}
+
+{% seo %}
+<meta property="og:type"   content="{% if page.type %}{{ page.type }}{% else %}website{% endif %}" /> 
+
+<!-- CSS loaded by the children page -->
+{% if page.css %}<link rel="stylesheet" type="text/css" href="{{ site.url }}{{ site.baseurl }}/assets/css/{{ page.css }}" />{% endif %}
+{% if page.custom-head %}
+    {{ page.custom-head }}
+{% endif %}
+
+<!--<link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/{{ site.baseurl }}assets/images/icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}/{{ site.baseurl }}assets/images/icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/{{ site.baseurl }}assets/images/icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/{{ site.baseurl }}assets/images/icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/{{ site.baseurl }}assets/images/icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/{{ site.baseurl }}assets/images/icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/{{ site.baseurl }}assets/images/icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/{{ site.baseurl }}assets/images/icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/{{ site.baseurl }}assets/images/icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="{{ site.url }}/{{ site.baseurl }}assets/images/icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/{{ site.baseurl }}assets/images/icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="{{ site.url }}/{{ site.baseurl }}assets/images/icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/{{ site.baseurl }}assets/images/icons/favicon-16x16.png">
+<link rel="manifest" href="{{ site.url }}/{{ site.baseurl }}assets/images/icons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="{{ site.url }}/{{ site.baseurl }}assets/images/icons/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">-->

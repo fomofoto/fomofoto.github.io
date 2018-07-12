@@ -1,0 +1,68 @@
+---
+layout: default
+title: DopIt Blog
+description: News about DopIt, Jekyll and Google AMP
+permalink: /blog/
+img: assets/images/activity/discover-electronic-scene.jpg
+image: assets/images/activity/discover-electronic-scene.jpg
+custom-head:
+type: 'article'
+carousel1: /assets/images/hero-2.jpg
+carousel2: /assets/images/hero-3.jpg
+carousel3: /assets/images/hero-1.jpg
+button-text: Discover
+button-link: https://link.com
+subtitle: Create <br class="md-hide lg-hide">your style
+subtitle-text: Get inspired and Find your style
+title-lg-box: Welcome
+text-lg-box: <p class="travel-discover-panel-subheading h3 my1 line-height-2">This is the best blog in the world, because is structured with the last technology.</p><p class="my1"><a class="travel-link" href="#">Read more</a></p>
+---
+
+    {% include blocks/ahead.html %}
+<section class="travel-results pb1 md-pt1">
+  <div class="max-width-3 mx-auto px1 md-px2 flex">    
+    
+    <div class="flex flex-wrap mxn1 flex-auto">
+
+        {% for post in site.posts %}
+        <div class="col-12 sm-col-6 lg-col-4 p1 travel-results-result">
+          <div class="relative travel-results-result">
+            {% if post.image %}
+            <a class="travel-results-result-link" href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" target="_top">
+              <amp-img class="rounded bg-silver mb1" width="2" height="1" noloading="" layout="responsive" src="{{ post.image }}" srcset="{{ post.image }} 2x, {{ post.image }} 1x"></amp-img>
+            </a>
+            {% endif %}
+            <div class="travel-results-result-like absolute top-0 right-0">
+              <div class="p1">
+                <label class="travel-like">
+                  
+                  <input type="checkbox" class="absolute">
+                  <div class="travel-like-hearts circle inline-block relative">
+                    <div class="travel-like-heart-tiny travel-like-heart-solid absolute"></div>
+                    <div class="travel-like-heart-tiny travel-like-heart-solid absolute"></div>
+                    <div class="travel-like-heart-tiny travel-like-heart-solid absolute"></div>
+                    <div class="travel-like-heart travel-like-heart-white absolute mx-auto"></div>
+                    <div class="travel-like-heart travel-like-heart-solid absolute mx-auto"></div>
+                    <div class="travel-like-heart travel-like-heart-outline absolute mx-auto"></div>
+                  </div>
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="h2 line-height-2 mb1">
+            <span class="travel-results-result-text">{{ post.title }}</span>
+            <span class="travel-results-result-subtext h3">•</span>
+            <span class="travel-results-result-subtext h3"><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Read</a></span>            
+          </div>
+        </div>
+
+        {% endfor %}
+                          
+
+    </div>
+  </div> 
+</section>       
+  
+
+
+
