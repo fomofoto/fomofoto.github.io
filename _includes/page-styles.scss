@@ -54,14 +54,20 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
     color: #fff
 }
 
+
 .ampstart-btn-secondary {
-    background-color: #666;
-    color: #f88;
-    border: 1px solid #f88
+    border-color: #222;
+    display: inline-block;
+    font-size: .8rem;
+    font-family: Open Sans Condensed, sans-serif;
+    font-weight: 700;
+    padding: .5rem 2rem;
+    -webkit-transition: background-color .2s ease-in, color .2s ease-in;
+    transition: background-color .2s ease-in, color .2s ease-in
 }
 
 .ampstart-btn-secondary:visited {
-    color: #f88
+    color: #666
 }
 
 .ampstart-btn:active .ampstart-btn:focus {
