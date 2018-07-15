@@ -12,6 +12,8 @@ description: >
   Photography dimensions for hight level persons
 logo: "/assets/images/logo-horizontal.png"
 
+language: en
+
 baseurl: "" # the subpath of your site, e.g. blog/ remember to put the / at the end
 url: "https://fomofoto.github.io" # the base hostname & protocol for your site
 paginate:	5 # The number of posts to show per page on your homepage
