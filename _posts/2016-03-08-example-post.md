@@ -2,8 +2,8 @@
 layout: post
 title: Example post
 description: Ea eam nibh persecuti, partem habemus nominavi
-img: ../assets/images/activity/discover-electronic-scene.jpg
-image: ../assets/images/activity/discover-electronic-scene.jpg
+img: /assets/images/activity/discover-electronic-scene.jpg
+image: /assets/images/activity/discover-electronic-scene.jpg
 custom-head:
 type: 'article'
 carousel1: /assets/images/activity/discover-electronic-scene@2x.jpg
