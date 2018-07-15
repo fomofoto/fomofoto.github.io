@@ -1,65 +1,34 @@
 ---
 layout: blog
-title: DopIt Blog
-description: News about DopIt, Jekyll and Google AMP
+title: fomofoto Blog
+description: News and photos about fomofoto
 permalink: /blog/
 img: assets/images/activity/discover-electronic-scene.jpg
 image: assets/images/activity/discover-electronic-scene.jpg
 custom-head:
 type: 'article'
-carousel1: /assets/images/hero-2.jpg
-carousel2: /assets/images/hero-3.jpg
-carousel3: /assets/images/hero-1.jpg
-button-text: Discover
-button-link: https://link.com
-subtitle: Create <br class="md-hide lg-hide">your style
-subtitle-text: Get inspired and Find your style
-title-lg-box: Welcome
-text-lg-box: <p class="travel-discover-panel-subheading h3 my1 line-height-2">This is the best blog in the world, because is structured with the last technology.</p><p class="my1"><a class="travel-link" href="#">Read more</a></p>
 ---
 <main id="content" role="main" class="main md-flex flex-wrap items-start">
   <section class="commerce-blog-wrapper col-12 md-col-8 px2 pt2 pb3 md-px4 md-pt1 md-pb3">
-    <h1 class="xs-hide sm-hide md-commerce-header h3 md-py2 md-mb4">featured posts</h1>
-<article>
-<amp-img class="mb3" src="../img/e-commerce/blog-narrow-01.png" srcset="../img/e-commerce/blog-narrow-01.png 750w,../img/e-commerce/blog-wide-01.png 1280w" width="750" height="427" layout="responsive" alt="No sleep &#39;til Brooklyn" noloading="">
-<div placeholder="" class="commerce-loader"></div>  </amp-img>
-<div class="mb3 md-mx0">
-  <h2 class="h3">No sleep &#39;til Brooklyn</h2>
-  <time datetime="2017-03-31T00:00" class="block mb2">31st March 2017</time>
-  <p class="mb2">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-  <a href="blog-article.amp.html" class="commerce-blog-link inline-block h7 md-mb4">read more</a>
-</div>
-</article>
-<article>
-<amp-img class="mb3" src="../img/e-commerce/blog-narrow-02.png" srcset="../img/e-commerce/blog-narrow-02.png 750w,../img/e-commerce/blog-wide-02.png 1280w" width="750" height="427" layout="responsive" alt="Chasing Cumbrian nirvana" noloading="">
-<div placeholder="" class="commerce-loader"></div>  </amp-img>
-<div class="mb3 md-mx0">
-  <h2 class="h3">Chasing Cumbrian nirvana</h2>
-  <time datetime="2017-03-31T00:00" class="block mb2">31st March 2017</time>
-  <p class="mb2">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-  <a href="blog-article.amp.html" class="commerce-blog-link inline-block h7 md-mb4">read more</a>
-</div>
-</article>
-<article>
-<amp-img class="mb3" src="../img/e-commerce/blog-narrow-03.png" srcset="../img/e-commerce/blog-narrow-03.png 750w,../img/e-commerce/blog-wide-03.png 1280w" width="750" height="427" layout="responsive" alt="At home with Paul Smith" noloading="">
-<div placeholder="" class="commerce-loader"></div>  </amp-img>
-<div class="mb3 md-mx0">
-  <h2 class="h3">At home with Paul Smith</h2>
-  <time datetime="2017-03-31T00:00" class="block mb2">31st March 2017</time>
-  <p class="mb2">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-  <a href="blog-article.amp.html" class="commerce-blog-link inline-block h7 md-mb4">read more</a>
-</div>
-</article>
-<article>
-<amp-img class="mb3" src="../img/e-commerce/blog-narrow-04.png" srcset="../img/e-commerce/blog-narrow-04.png 750w,../img/e-commerce/blog-wide-04.png 1280w" width="750" height="427" layout="responsive" alt="Choosing your vintage" noloading="">
-<div placeholder="" class="commerce-loader"></div>  </amp-img>
-<div class="mb3 md-mx0">
-  <h2 class="h3">Choosing your vintage</h2>
-  <time datetime="2017-03-31T00:00" class="block mb2">31st March 2017</time>
-  <p class="mb2">Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
-  <a href="blog-article.amp.html" class="commerce-blog-link inline-block h7 md-mb4">read more</a>
-</div>
-</article>
+      <h1 class="xs-hide sm-hide md-commerce-header h3 md-py2 md-mb4">featured posts</h1>
+
+  {% for post in site.posts %}
+
+    <article>
+  {% if post.image %}
+      <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+      <amp-img class="mb3" src="{{ post.image }}" srcset="{{ post.image }} 750w,{{ post.image }} 1280w" width="750" height="427" layout="responsive" alt="No sleep &#39;til Brooklyn" noloading="">
+      <div placeholder="" class="commerce-loader"></div>  </amp-img> </a>
+  {% endif %}
+
+      <div class="mb3 md-mx0">
+        <h2 class="h3">{{ post.title }}</h2>
+        <time datetime="2017-03-31T00:00" class="block mb2">31st March 2017</time>
+        <p class="mb2">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" class="commerce-blog-link inline-block h7 md-mb4">read more</a>
+      </div>
+      </article>
+  {% endfor %}        
   </section>
 <aside class="commerce-blog-sidebar commerce-side-panel xs-hide sm-hide md-col-4 md-px4 md-pt6">
 <h1 class="h5 md-pb2">The bike shop blog</h1>
