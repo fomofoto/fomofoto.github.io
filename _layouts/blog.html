@@ -1,0 +1,22 @@
+<!doctype html>
+<html ⚡ lang="en">
+  {% include head-blog.html %}
+  <body>
+      {% if site.google.tagmanager_id == true %}
+        {% include JB/tag-manager-body.html %}
+      {% endif %}
+         
+      
+      {% include header.html %}
+  
+      {{ content }}
+      
+      {% include footer.html %}    
+  
+      
+        
+      {% if site.analytics_id %}
+          {% include analytics.html %}
+      {% endif %}
+  </body>
+</html>
