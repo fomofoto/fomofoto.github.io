@@ -13,14 +13,14 @@
           <section class="commerce-blog-wrapper col-12 md-col-8 px2 pt2 pb3 md-px4 md-pt1 md-pb3">
               <h1 class="xs-hide sm-hide md-commerce-header h3 md-py2 md-mb4">{{ post.title }}</h1>      
               <article>
-                  <amp-img class="mb3" src="{{ post.image }}" srcset="{{ post.image }} 750w,{{ post.image }} 1280w" width="750" height="427" layout="responsive" alt="No sleep &#39;til Brooklyn" noloading="">
+                  <amp-img class="mb3" src="{{ site.url }}{{ site.baseurl }}{{ post.image }}" srcset="{{ site.url }}{{ site.baseurl }}{{ post.image }} 750w,{{ site.url }}{{ site.baseurl }}{{ post.image }} 1280w" width="750" height="427" layout="responsive" alt="No sleep &#39;til Brooklyn" noloading="">
                   <div placeholder="" class="commerce-loader"></div>  </amp-img>
                   
                   <div class="mb3 md-mx0">
                       
                       <time datetime="2017-03-31T00:00" class="block mb2">31st March 2017</time>
                       <div class="mb2">{{ content }}</div>
-                      <a href="{{ site.url }}{{ site.baseurl }}blog" class="commerce-blog-link inline-block h7 md-mb4">back to blog</a>
+                      <a href="{{ site.url }}{{ site.baseurl }}/blog" class="commerce-blog-link inline-block h7 md-mb4">back to blog</a>
                     </div>
                 </article>
                 
