@@ -5,6 +5,6 @@ Disallow: /_drafts/
 Disallow: /_config.yml
 Disallow: /_layouts/
 Disallow: /_plugins/
-Disallow: /theme/
+Disallow: /tema/
 
-Sitemap: https://jorigamy.github.io/sitemap.txt
+Sitemap: https://fomofoto.github.io/sitemap.txt
