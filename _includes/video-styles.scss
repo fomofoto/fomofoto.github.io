@@ -122,3 +122,26 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
     color: #fff;
     cursor: pointer;
   }
+
+
+
+  .video-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    }
+    
+    .video-overlay amp-video {        
+    width: 100%;
+    height: auto;
+    max-height: auto;
+    }
+    
+    .video-overlay amp-video .i-amphtml-fill-content {
+    width: 100%;
+    height: auto;
+    max-height: none;
+    }
