@@ -1,0 +1,45 @@
+<head>  
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1" />
+  <meta name="theme-color" content="#ffffff">
+
+  {% include JB/heading.html %}  
+  
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  <script type="application/ld+json">
+  {% include metadata.json %}
+  </script>
+
+  <script async="" src="https://cdn.ampproject.org/v0.js"></script>
+
+  <style amp-boilerplate="">body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+<!--Added scripts-->
+  <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+  <script async custom-element="amp-instagram" src="https://cdn.ampproject.org/v0/amp-instagram-0.1.js"></script>
+  <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+<!--End-->
+
+<!--Default scripts-->
+<script custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js" async=""></script>
+<script custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js" async=""></script>
+<script custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" async=""></script>
+<!--end-->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
+
+<!--  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400" rel="stylesheet">-->
+
+  <style amp-custom>
+  {% capture include_to_scssify %}
+    {% include video-styles.scss %}   
+  {% endcapture %}
+  {{ include_to_scssify | scssify }}
+  </style>
+<!--Coockie consent by https://cookiebot.com/it/manage
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="7216e8f2-8200-4654-9d7d-bee2374f00d2" type="text/javascript" async></script>
+  -->
+</head>
