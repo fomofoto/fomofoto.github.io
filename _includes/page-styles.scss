@@ -94,3 +94,14 @@ html{font-family:sans-serif;line-height:1.15;-ms-text-size-adjust:100%;-webkit-t
     }
 }
 
+a.carousel-link {
+    margin: 0px!important;
+    padding: 0px!important;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    transition: opacity .6s;
+}
+a.carousel-link:hover {
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
