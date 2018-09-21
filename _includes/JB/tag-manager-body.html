@@ -7,3 +7,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- Google Tag Manager -->
 <amp-analytics config="https://www.googletagmanager.com/amp.json?id={{ site.google.tagmanager_id }}&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
 <!-- End Google Tag Manager -->
+
+<amp-analytics type="googleanalytics">
+        <script type="application/json">
+        {
+          "vars": {
+            "account": "{{ site.google.tracking_id }}"
+          },
+          "triggers": {
+            "trackPageview": {
+              "on": "visible",
+              "request": "pageview"
+            }
+          }
+        }
+        </script>
+</amp-analytics>
+
+<amp-analytics id='analytics1' type='googleanalytics'>
+        <script type='application/json'>
+        {
+          "vars": {
+            "account": "{{ site.google.optimize_id }}"
+          },
+          "requests": {
+             "experiment": "${pageview}&xid=${xid}&xvar=${xvar}"
+          },
+          "triggers": {
+            "trackPageview": {
+              "on": "visible",
+              "request": "experiment",
+               "vars": {
+                 "xid": "gaExperimentID",
+                 "xvar": "VARIANT(experimentName)"
+               }
+            }
+          }
+        }
+        </script>
+        </amp-analytics>
