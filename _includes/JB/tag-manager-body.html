@@ -1,13 +1,10 @@
-<!-- Google Tag Manager (noscript) 
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ site.google.tagmanager_id }}"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
--->
-
+{% if site.google.tagmanager_id %}
 <!-- Google Tag Manager -->
 <amp-analytics config="https://www.googletagmanager.com/amp.json?id={{ site.google.tagmanager_id }}&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
 <!-- End Google Tag Manager -->
-
+{% endif %}
+{% if site.google.tracking_id %}
 <amp-analytics type="googleanalytics">
         <script type="application/json">
         {
@@ -23,9 +20,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         }
         </script>
 </amp-analytics>
+{% endif %}
 
+{% if site.google.optimize_id %}
 <amp-analytics id='analytics1' type='googleanalytics'>
-        <script type='application/json'>
+    <script type='application/json'>
         {
           "vars": {
             "account": "{{ site.google.optimize_id }}"
@@ -44,5 +43,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             }
           }
         }
-        </script>
-        </amp-analytics>
+    </script>
+</amp-analytics>
+{% endif %}
+
+{% if site.facebook.pixel %}
+<!-- Facebook Pixel Analytics tracking -->
+<amp-analytics type="facebookpixel" id="facebook-pixel">
+    <script type="application/json">
+        {
+            "vars": {
+                "pixelId": "{{site.facebook.pixel}}"
+            },
+            "triggers": {
+                "trackPageview": {
+                    "on": "visible",
+                    "request": "pageview"
+                }
+            }
+        }
+    </script>
+</amp-analytics>
+    <!-- End Facebook Pixel Analytics example -->
+{% endif %}    
