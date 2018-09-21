@@ -57,7 +57,7 @@ location:
 google :
     tracking_id : 'UA-126238091-1' #Id google analitics
     optimize_id : 'GTM-NF68992' #I'id di google optimize per A/B Testing
-    tagmanager_id: 'GTM-TPXVSLH' #id di google tag manager
+    tagmanager_id: 'GTM-TPFPZHK' #id di google tag manager
     #ad_client: 'ca-pub-9204963049240271' # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
 
 
