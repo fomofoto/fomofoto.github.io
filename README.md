@@ -4,20 +4,6 @@
 [where download](https://www.outofbit.it/migliori-siti-download-ebook/)
 [Where I find most](http://en.booksee.org/s/?q=David+Weinberger&t=0)
 
-## Quora answe about psicology and neuropsicology associated to marketing
-
-Comincerei sicuramente da quelli di Robert Cialdini. E’ il più famoso e il più “ centrato “ sull’argomento.
-
-Non mi fermerei però qui… tutta la scuola di Paolo Alto ( da Watzlavick a Chomsky , etc. etc. ) può dare spunti stimolanti.
-
-Tutte le pubblicazioni neuroscientifiche serie ( lo trovi tranquillamente online su riviste americane universitarie ) sono fonti straordinarie sulle basi neurologiche.
-
-Entra poi nel filone psicologico, con i libri di Nardone, ad esempio.
-
-E non perderti gli speech di TED.com sull’argomento.
-
-C’è tantissimo, ma non perderti nelle formulette di qualche improvvisato, vai alla radice…..e se ti avanza del tempo vieni a trovarmi su Corsi online gratuiti ( piccole pillole totalmente gratuite che possono farti venire una idea )
-
 # Useful links
 
 [Ampstart themes](https://ampstart.com/templates) the theme used
@@ -68,11 +54,11 @@ C’è tantissimo, ma non perderti nelle formulette di qualche improvvisato, vai
 
 - [x] Drone photograpy page https://tography.github.io/drone/ (improve images)
 - [x] Portrait photography page https://tography.github.io/portrait/ 
-- [ ] Add all photos to Urban photography
-- [ ] Edit flavicon (don't work try other ways)
+- [x] Add all photos to Urban photography
+- [x] Edit flavicon (don't work try other ways)
 - [ ] Product photograpy page https://tography.github.io/product/ (All things - for now deprecated)
 - [ ] Edit the social share image (the top img: and image: option) as a context pic
-- [ ] Try to implement logo into menu 
+- [x] Try to implement logo into menu 
 - [ ] Copy and merge AMP scripts into /assets/js folder and merge that all (create 2/3 file in base of the dffrent headers of the pages layout to support AMPyoutube and AMPinstagram)
 - [ ]
 - [ ] Start work in the blog posts part to integrate a good layout
