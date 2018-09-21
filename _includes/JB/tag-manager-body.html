@@ -66,3 +66,48 @@
 </amp-analytics>
     <!-- End Facebook Pixel Analytics example -->
 {% endif %}    
+
+
+<!-- ESEMPIO COMPLETO Facebook Pixel Analytics tracking 
+<amp-analytics type="facebookpixel" id="facebook-pixel">
+        <script type="application/json">
+        {
+          "vars": {
+            "pixelId": "1760516960931795"
+          },
+          "triggers": {
+            "trackPageview": {
+              "on": "visible",
+              "request": "pageview"
+            },
+            "trackEvent": {
+              "on": "click",
+              "selector": "#test1",
+              "request": "event",
+              "vars": {
+                "eventName": "ClickedBtn-x"
+              }
+            },
+          "trackSearch": {
+            "on": "visible",
+            "request": "eventSearch",
+            "vars": {
+              "search_string": "How to use Facebook Pixel in AMP Pages"
+            }
+          },
+          "trackAddToWishlist": {
+            "on": "click",
+            "selector": "#test1",
+            "request": "eventAddToWishlist",
+            "vars": {
+              "content_ids": ["1234"],
+              "content_name": "The Avengers",
+              "content_category": "Entertainment",
+              "value": 1.50,
+              "currency": "USD"
+            }
+          }
+          }
+        }
+        </script>
+    </amp-analytics> -->
