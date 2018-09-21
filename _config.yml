@@ -55,10 +55,11 @@ location:
 # WHEN YOU WANT TO HOST WITH THE COMBINATION OF GOOLE TAG MANAGER, ANALYTICS AND OPTIMIZE 
 # (tracking_id, optimize_id, tagmanager_id ARE REQUIRED FIELDS)
 google :
-    #tracking_id : 'UA-121060011-1' Id google analitics
-    #optimize_id : 'GTM-T28VH29' I'id di google optimize per A/B Testing
-    #tagmanager_id: 'GTM-PLM44W6' id di google tag manager
+    tracking_id : 'UA-126238091-1' Id google analitics
+    optimize_id : 'GTM-NF68992' I'id di google optimize per A/B Testing
+    tagmanager_id: 'GTM-TPXVSLH' id di google tag manager
     #ad_client: 'ca-pub-9204963049240271' # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
+
 
 # data for jekyll-seo-tags plugin
 social:
