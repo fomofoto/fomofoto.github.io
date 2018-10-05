@@ -12,7 +12,7 @@ description: >
   Photography dimensions for hight level persons
 logo: "/assets/images/logo-horizontal.png"
 
-language: en
+language: it
 
 baseurl: "" # the subpath of your site, e.g. blog/ remember to put the / at the end
 url: "https://fomofoto.net" # the base hostname & protocol for your site
