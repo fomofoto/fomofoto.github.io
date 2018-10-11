@@ -6,6 +6,7 @@ img: /assets/images/activity/discover-electronic-scene.jpg
 image: /assets/images/activity/discover-electronic-scene.jpg
 custom-head:
 type: 'article'
+date: 2016-03-08T10:20:00Z
 carousel1: /assets/images/activity/discover-electronic-scene@2x.jpg
 carousel2: /assets/images/activity/discover-electronic-scene@2x.jpg
 carousel3: /assets/images/activity/discover-electronic-scene@2x.jpg
@@ -15,6 +16,7 @@ subtitle: 'Create your style Adventures'
 subtitle-text: Get inspired and Find your style
 title-lg-box: Welcome
 text-lg-box: <p class="travel-discover-panel-subheading h3 my1 line-height-2">This is the best blog in the world, because is structured with the last technology.</p><p class="my1"><a class="travel-link" href="#">Read more</a></p>
+
 ---
 
 At labitur probatus eum, qui modo idque partem ne, ea has oratio sanctus cotidieque. Dicta persecuti sit ex. Discere facilis recteque sit no, in eripuit volumus adversarium vim. Ad sed meis nulla accusata. Ex posse accusam maluisset mei, id vix ignota cetero inimicus.

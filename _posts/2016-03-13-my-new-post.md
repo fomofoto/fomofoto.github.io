@@ -6,6 +6,7 @@ img: /assets/images/activity/skateboard-around-city.jpg
 image: /assets/images/activity/skateboard-around-city.jpg
 custom-head:
 type: 'article'
+date: 2016-03-13T10:20:00Z
 carousel1: /assets/images/activity/skateboard-around-city@2x.jpg
 carousel2: /assets/images/activity/skateboard-around-city@2x.jpg
 carousel3: /assets/images/activity/skateboard-around-city@2x.jpg

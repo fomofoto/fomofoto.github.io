@@ -23,7 +23,7 @@ type: 'article'
 
       <div class="mb3 md-mx0">
         <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><h2 class="h3">{{ post.title }}</h2></a>
-        <time datetime="2017-03-31T00:00" class="block mb2">31st March 2017</time>
+        <time datetime="{{ page.date | date_to_xmlschema }}" class="block mb2">{{ page.date | date_to_long_string }}</time>
         <p class="mb2">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
         <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" class="commerce-blog-link inline-block h7 md-mb4">Leggi tutto</a>
       </div>
