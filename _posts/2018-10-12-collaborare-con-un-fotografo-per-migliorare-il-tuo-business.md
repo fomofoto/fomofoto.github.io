@@ -11,21 +11,30 @@ date: 2018-10-12T10:20:00Z
 
 Se lavori in un'azienda che opera in modo corretto sul mercato sai molto bene quanto è importante **comunicare un messaggio aziendale ai clienti**. Indipendentemente dal tipo di media che utilizzi, come il web o i canali tradizionali, sarai d'accordo con me che serve un **fotografo**.
 
+
 Ad oggi, grazie alle nuove tecnologie, le immagini e quindi le foto ricoprono il 70% della comunicazione aziendale, tra cartellonistica, brochure, foto per web e fotografie per social media; non lo credi anche tu?
+
 
 Come credi di poter creare materiale professionale ed interessante? Credi anche tu che serva un **fotografo professionista**?
 
+
 Sapevi che un fotografo può essere utile in moltissimi contesti aziendali?
+
 
 Per favore, continua a leggere questo post, così potrai scoprire tutti i contesti in cui un fotografo professionista potrà aiutare la tua azienda e la sana prosecuzione del tuo business:
 
+
 ## Fotografo professionista, un grande alleato della tua azienda e per il tuo business
+
 
 Qualche tempo fa nel mercato dei fotografi professionisti c'è stata una dura flessione, il momento in cui la fotografia digitale ha fatto capolino nelle nostre vite.
 
+
 La fotografia digitale ha fatto apparire le tecniche utilizzate dai fotografi alla portata di tutti, diminuendo di molto le richieste da parte di aziende agli studi fotografici.
 
+
 Ma nel tempo, dopo che molte immagini di persone non preparate alla professione del fotografo, hanno cominciato a circolare, è emerso nettamente **ciò che contraddistingue un fotografo professionista**: la creatività, lo studio della comunicazione e la capacità compositiva
+
 
 > Un fotografo professionista deve poter padroneggiare tecniche in fase di scatto, conoscere come sfruttare al meglio la luce e saper modificare la foto in post produzione, senza mettere in secondo piano ciò che il cliente vuole comunicare con il progetto fotografico
 
