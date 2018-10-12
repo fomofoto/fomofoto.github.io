@@ -16,9 +16,7 @@
                   <amp-img class="mb3" src="{{ site.url }}{{ site.baseurl }}{{ page.image }}" srcset="{{ site.url }}{{ site.baseurl }}{{ page.image }} 750w,{{ site.url }}{{ site.baseurl }}{{ page.image }} 1280w" width="750" height="427" layout="responsive" alt="{{ page.description }}" noloading="">
                   <div placeholder="" class="commerce-loader"></div>  </amp-img>
                   
-                  <div class="mb3 md-mx0">
-                      
-                      <time datetime="{{ post.date | date_to_xmlschema }}" class="block mb2">{{ post.date | date_to_long_string }}</time>
+                  <div class="mb3 md-mx0">                                            
                       <div class="mb2">{{ content }}</div>
                       <a href="{{ site.url }}{{ site.baseurl }}/blog" class="commerce-blog-link inline-block h7 md-mb4">tutti i post del blog</a>
                     </div>

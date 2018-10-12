@@ -5,7 +5,7 @@ description: Collaborare con un fotografo professionista in ques'era digitale è
 img: /assets/images/post/collaborare-con-un-fotografo-per-migliorare-il-tuo-business.jpg
 image: /assets/images/post/collaborare-con-un-fotografo-per-migliorare-il-tuo-business.jpg
 type: 'BlogPosting'
-date: 2018-10-12T10:20:00Z
+
 
 ---
 
