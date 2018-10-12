@@ -38,6 +38,8 @@ Per essere più precisi, un **fotografo freelance** è la risorsa più indicata 
 
 ## Fotografare per il tuo marketing e la tua pubblicità
 
+## Fotografare per il tuo marketing aziendale
+
 Comunicare al meglio per la tua azienda è un'esigenza non un opzione non credi?
 
 Siccome **la fotografia ha un ruolo fondamentale** in questo è proprio necessario poter avvalersi di un professionista che tiri fuori il meglio da ciò che desideri comunicare nei tuoi messaggi aziendali.
