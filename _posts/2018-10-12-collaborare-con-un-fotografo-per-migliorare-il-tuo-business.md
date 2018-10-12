@@ -34,10 +34,6 @@ Per questo motivo un fotografo professionista può rivelarsi una **risorsa insos
 
 Per essere più precisi, un **fotografo freelance** è la risorsa più indicata per la maggior parte delle aziende sul territorio.
 
-## Fotografare per il tuo marketing e la tua pubblicità
-
-## Fotografare per il tuo marketing e la tua pubblicità
-
 ## Fotografare per il tuo marketing aziendale
 
 Comunicare al meglio per la tua azienda è un'esigenza non un opzione non credi?
