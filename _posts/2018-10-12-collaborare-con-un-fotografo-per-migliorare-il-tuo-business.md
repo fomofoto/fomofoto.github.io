@@ -68,7 +68,7 @@ Ci sono moltissimi eventi aziendali in cui avere un fotografo è molto utile, ev
 
 Anche se la tua attività è appena nata o fai parte di una realtà giovane, avere la possibilità di creare un'inaugurazione con un fotografo professionista si rivelerà la scelta più azzeccata per l'immagine aziendale, perchè una persona che ha esperienza di fotografia e che si dedichi esclusivamente a questo durante l'inaugurazione è necessario per raccolgiere una storia importante che è l'avvento della tua azienda nel mercato, materiale che ti tornerà utile per raccontare la tua storia nei canali media che più utilizzi.
 
-## Fotogro professionista per web, e-commerce e social media
+## Fotografo professionista per web, e-commerce e social media
 
 Se lavori ad un'attività che si muove principalmente su web, la cosa più assurda che la tua azienda possa fare è non mostrare al meglio quello di cui ci si occupa non credi?
 
