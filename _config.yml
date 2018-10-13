@@ -99,3 +99,6 @@ kramdown:
 gems:
   - jekyll-paginate
   - jekyll-seo-tag
+
+plugins:
+  - jekyll-redirect-from
