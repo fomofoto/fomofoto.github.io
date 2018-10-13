@@ -6,5 +6,6 @@ Disallow: /_config.yml
 Disallow: /_layouts/
 Disallow: /_plugins/
 Disallow: /tema/
+Disallow: /_data/
 
 Sitemap: https://fomofoto.net/sitemap.txt
