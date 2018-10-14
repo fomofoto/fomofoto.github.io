@@ -20,6 +20,8 @@ Di seguito ti **elencherò gli strumenti più comuni che i fotografi utilizzano*
 
 ## Fotocamera o corpo macchina
 
+## Fotocamera 
+
 <amp-img alt="Fotografia di un corpo macchina, fotografico" title="Corpo macchina" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-14-strumenti-professionali-fotografo/corpo-macchina.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
 
 Ogni fotografo che si rispetti, cioè un fotografo che offre servizi fotografici per vivere è munito di uno o più corpi macchina per scattare fotografie.
@@ -33,6 +35,8 @@ Un corpo macchina che si rispetti, per un professionista ha prezzi che si aggira
 Queste fluttuazioni sono dovute alla tipologia del corpo macchina ed agli scopi per cui saranno utilizzati, come ad esempio, fotografia di paesaggi, di ritratti, pubblicitaria, fino alla cartellonistica; ogni corpo macchina ha diversi sensori, diverse funzionalità e resistenza alle intemperie, in base a queste proprietà il prezzo varia e di parecchio.
 
 ## Obiettivi
+
+## Obiettivi o Lenti
 
 <amp-img alt="Fotografia di obiettivi fotografici" title="Obiettivi fotografici" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-14-strumenti-professionali-fotografo/obiettivi-fotografici.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
 
