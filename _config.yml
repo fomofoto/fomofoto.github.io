@@ -13,6 +13,7 @@ description: >
 logo: "/assets/images/logo-nav.png"
 
 language: it
+permalink: /:title/
 
 baseurl: "" # the subpath of your site, e.g. blog/ remember to put the / at the end
 url: "https://fomofoto.net" # the base hostname & protocol for your site
