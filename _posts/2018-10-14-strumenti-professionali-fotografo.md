@@ -18,9 +18,9 @@ Per un fotografo professionale **ottenere un risultato finale di qualità è un'
 Di seguito ti **elencherò gli strumenti più comuni che i fotografi utilizzano** per realizzare servizi fotografici professionali, senza i quali non si potrebbe avere un risultato finale di qualità.
 
 ## Corpo macchina o Fotocamera
-
+---
 <amp-img alt="Fotografia di un corpo macchina, fotografico" title="Corpo macchina" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-14-strumenti-professionali-fotografo/corpo-macchina.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
-
+---
 Ogni fotografo che si rispetti, cioè un fotografo che offre servizi fotografici per vivere è munito di uno o più corpi macchina per scattare fotografie.
 
 Ogni **corpo macchina** ha funzionalità e proprietà che lo contraddistinguono, quindi in base alla tipologia di servizio fotografico richiesto da un eventuale committente, selezionerà il tipo di corpo macchina più idoneo al lavoro commissionato.
@@ -55,9 +55,9 @@ Gli obiettivi studiati per i professionisti hanno un prezzo che varia dai 800 eu
 Va da sè che per coprire l'investimento dei soli corpi macchina ed obiettivi, un fotografo ha esigenza di trovare collaborazioni con un determinato tipo di budget.
 
 ## Luci
-
+---
 <amp-img alt="Lampada per luce fotografica" title="Luci fotografiche" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-14-strumenti-professionali-fotografo/luce-fotografica.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
-
+---
 Per scattare fotografie per un pubblico esigente vanno curati tutti gli aspetti compositivi in un progetto fotografico.
 
 Tra i primi aspetti da tenere in considerazione come la luce cade sui soggetti di una foto, è una esigenza da tenere fortemente in considerazione, per via del fatto che grazie all'illuminazione è possibile modificare una fotografia in modo molto profondo; è possibile gestire le ombre e come la luce cade sul soggetto in modo molto preciso per ottenere effetti e senzazioni diverse a parità di soggetto e contesto.
@@ -73,9 +73,9 @@ Per avere un set di luci sufficente è necessario avere almeno tre luci fisse in
 Esistono molti tipologie differenti per funzionalità differenti i prezzi delle luci professionali non scendono sotto i 300 euro l'una ed un fotografo che si rispetti ha sperimentato molte tipologie di luce differenti, per comprendere meglio le sue esigenze, per questo, anche quello delle luci rappresente un investimento non indifferente per un fotografo.
 
 ## Cavalletto o treppiede
-
+---
 <amp-img alt="Fotografia di una serie di cavalletti per la fotografia" title="Cavalletti fotografici" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-14-strumenti-professionali-fotografo/cavalletti-fotografici.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
-
+---
 Il cavalletto in fotografia è uno strumento indispensabile per ogni fotografo.
 
 Forse potrai pensare che è utilizzato solo durante le lunghe esposizioni, oppure per ottenere effetti particolari durante la notte, ma non è così.
@@ -89,9 +89,9 @@ Ogni cavaletto ha le sue prorpietà intrinseche come il peso, l'altezza massima,
 In media un cavalletto di qualità insieme alle tre tipologie di testa principali viene a costare oltre 1000 euro.
 
 ## Filtri
-
+------
 <amp-img alt="Foto ad un filtro per la fotografia" title="Filtro fotografico" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-14-strumenti-professionali-fotografo/filtro-fotografico.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
-
+------
 In base al tipo di fotografia che il fotografo effettua può avere necessità di diverse tipologie di filtri o di luci.
 
 I filtri sono applicati davanti l'obiettivo della tua camera e ce ne sono di diverse tipologia con diverse applicazioni:
@@ -106,9 +106,9 @@ Hogni filtro ha particolari proprietà ed è utilizzato per ottenere differenti 
 Ogni filtro può costare parecchie decine di euro e per avere un set completo che sia soddifacente sara necessario spendere un migliaio di euro.
 
 ## Software di post produzione
-
+---
 <amp-img alt="Fotografia ad uno studio di post produzione" title="Studio di post produzione" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-14-strumenti-professionali-fotografo/post-produzione.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
-
+---
 Il lavoro del fotografo non si limita a scattare fotografie, ma è un lungo lavoro di produzione, archiviazione e post produzione.
 
 Ogni fotografo dopo avere eseguito il lavoro sul campo dovra prendersi delle ore per archiviare le foto, scegliere le migliori e poi editarle con un software di post produzione.
@@ -118,9 +118,9 @@ Per ottenere il meglio dal servizio fotografico, esaltare i colori e correggere 
 Tra i software più utilizzati mi sento di citare photoshop ed illustrator, molto utili ed intuitivi, ma sono presenti in mercato anche software gratuiti per effettuare ritocchi e post produzioni di tutto riguardo.
 
 ## Studio
-
+------------
 <amp-img alt="Foto ad uno studio fotografico" title="Studio fotografico" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-14-strumenti-professionali-fotografo/studio-fotografico.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
-
+------------
 In base alla tipologia di fotografia a cui si dedica un fotografo potrebbe esserci la necessità di dover avere uno studio.
 
 Uno studio fotografico è un'area adibita e che contiene tutti gli strumenti **per poter eseguire shooting professionali** di svariate tipologie di fotografia, come la fotografia di ritratti, pubblicitaria, glamour e varie altre declinazioni.
@@ -140,9 +140,9 @@ Se ti stavi domandando perchè i prezzi di alcuni servizi fotografici sono molto
 Quindi se fossi una di quelle persone che punta il dito, che solitamente si indigna quando gli viene presentato un proventivo, in base alle sue richieste, troppo alto ti prego, prova a rivedere le tue opinioni, oppure abbassa il tiro con le richieste di servizio, potresti scoprire che riusciresti ad ottenere un buon prodotto ad un prezzo inferiore moderando le tue richieste in fase di briefing.
 
 ## Strumenti per la stampa
-
+---------
 <amp-img alt="Fotografia ad una stampante industriale" title="Stampante industriale" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-14-strumenti-professionali-fotografo/stampante.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
-
+---------
 Il digitale ha rivoluzionato il modo di guardare alla fotografia, questo è vero ma, una bella foto è ancor più bella se vista fisicamente su una stampa gli dia maggior valore.
 
 Ti sei mai chiesto perchè alle mostre fotografiche vengono esposte stampe e le opere non sono rappresentate su monito? Sarebbe più pratico ed economico avere dei monitor che ritraggono le opere per via del fatto che si risparmierebbe molto in trasporto, allestimento mostra e smontaggio mostra.
@@ -154,9 +154,9 @@ Per questo un fotografo che si rispetti valuta sempre bene prima di eseguire il 
 Per fare ciò è necessario disporre di collaboratori che eseguano stampe per loro o di possedere macchinari di stampa specifici creati per le esigenze di produzione.
 
 ## Formazione continua
-
+------
 <amp-img alt="Fotografia di una lezione in aula per la formazione alla fotografia" title="Insegnamento e formazione" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-14-strumenti-professionali-fotografo/insegnamento.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
-
+------
 Ogni buon fotografo sa che deve tenersi aggiornato sulle nuove tecnologie in ambito.
 
 Conoscere tutti i nuovi dispositivi che vengono prodotti in commercio per stare al passo coi tempi e poter ottimizzare il prorpio lavoro oppure migliorare la qualità o la tipologia dei servizi che offre.
@@ -172,9 +172,9 @@ Purtroppo per essere continuamente formato è necessario molto tempo da dedicare
 Anche per questo motivo alcune tipologie di scatti fotografici sono molto più costosi di altri, per via del fatto che c'è un vero e proprio percorso accademico per ottenere determinati risultati, determinate comunicazioni visuali, e credo, sia giusto per fotografi altamente formati richiedere una parcella elevata perchè è frutto di un lungo percorso di studio.
 
 ## Molteplici fattori
-
+---
 <amp-img alt="Fotografia di un'agenda per organizzarsi" title="Agenda e organizzazione" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-14-strumenti-professionali-fotografo/agenda.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
-
+---
 Ogni servizio fotografico è a se quindi ognuno di esso avrà la necessità di strumenti diversi per la realizzazione, in primis **la creatività del fotografo e la capacità di inventare e utilizzare strumenti differenti in ogni suo lavoro**, tutto dipende da ciò che si vuole ottenere durante lo scatto.
 
 Per fare un esempio se vorrai fotografare i capelli al vento di una modella sarai, per forza di cose, costretto ad acquistare un ventilatore abbastanza potente per ottenere quell'effetto e riprodurlo nello studio fotografico, è impensabile poter tenere impegnata una modella, almeno professionista, fino a che non arrivi una giornata di vento abbastanza forte per ottenere l'effetto desiderato, ancor più impensabile che tu ogni giorno vada a verificare le condizioni del vento in un dato luogo o sul tuo territorio, non credi?
