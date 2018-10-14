@@ -32,9 +32,9 @@ Un corpo macchina che si rispetti, per un professionista ha prezzi che si aggira
 Queste fluttuazioni sono dovute alla tipologia del corpo macchina ed agli scopi per cui saranno utilizzati, come ad esempio, fotografia di paesaggi, di ritratti, pubblicitaria, fino alla cartellonistica; ogni corpo macchina ha diversi sensori, diverse funzionalità e resistenza alle intemperie, in base a queste proprietà il prezzo varia e di parecchio.
 
 ## Obiettivi o Lenti
-
+---
 <amp-img alt="Fotografia di obiettivi fotografici" title="Obiettivi fotografici" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-14-strumenti-professionali-fotografo/obiettivi-fotografici.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
-
+---
 Ad ogni corpo macchina vanno associate degli **obiettivi professionali**, con le quali è possibile scattare fotografie di diversa tipologia e con differenti proprietà visuali.
 
 In base al tipo di obiettivo selezionato da fotografo è possibile far percepire diverse emozioni espresse dalla fotografia scattata, e, solo uno studio approfondito sulla composizione delle immagini possono svelare ad un fotografo neofita come fare a creare immagini accattivanti e che esprimano emozioni in base alla tipologia di lavoro commissionato.
