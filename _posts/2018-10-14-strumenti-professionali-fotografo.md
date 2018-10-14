@@ -17,10 +17,7 @@ Per un fotografo professionale **ottenere un risultato finale di qualità è un'
 
 Di seguito ti **elencherò gli strumenti più comuni che i fotografi utilizzano** per realizzare servizi fotografici professionali, senza i quali non si potrebbe avere un risultato finale di qualità.
 
-
-## Fotocamera o corpo macchina
-
-## Corpo macchina o Fotocamera 
+## Corpo macchina o Fotocamera
 
 <amp-img alt="Fotografia di un corpo macchina, fotografico" title="Corpo macchina" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-14-strumenti-professionali-fotografo/corpo-macchina.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
 
@@ -33,8 +30,6 @@ Per corpo macchina intendo una macchina fotografica che non è munita di un obie
 Un corpo macchina che si rispetti, per un professionista ha prezzi che si aggirano tra i 2000 ed i 5000 euro, fino ad arrivara a corpi macchina da 20000 euro.
 
 Queste fluttuazioni sono dovute alla tipologia del corpo macchina ed agli scopi per cui saranno utilizzati, come ad esempio, fotografia di paesaggi, di ritratti, pubblicitaria, fino alla cartellonistica; ogni corpo macchina ha diversi sensori, diverse funzionalità e resistenza alle intemperie, in base a queste proprietà il prezzo varia e di parecchio.
-
-## Obiettivi
 
 ## Obiettivi o Lenti
 
