@@ -20,7 +20,7 @@ Di seguito ti **elencherò gli strumenti più comuni che i fotografi utilizzano*
 
 ## Fotocamera o corpo macchina
 
-## Fotocamera 
+## Corpo macchina o Fotocamera 
 
 <amp-img alt="Fotografia di un corpo macchina, fotografico" title="Corpo macchina" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-14-strumenti-professionali-fotografo/corpo-macchina.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
 
