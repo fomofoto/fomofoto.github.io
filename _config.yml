@@ -21,14 +21,14 @@ paginate:	5 # The number of posts to show per page on your homepage
 
 name: 'Antonio Trento'
 bio: >
-  An entusiast web geek that love make good marketing strategies, create beautifull photos, install and mantain web platforms.
+  Un appassionato di web geek che ama fare buone strategie di marketing, creare bellissime foto, installare e mantenere piattaforme web.
 author_image: "/assets/images/author.jpg"
 twitter_username: fomofoto
 github_username:  antoniotrento
 
 aside-title: Antonio Trento
 aside-image: myself-cap-300x200.jpg
-aside-description: Antonio ama fare scatti in giro per il mondo, specialmente, scatti di ritratti e lavorare con brand importanti. Antonio lavora con alcuni dei più grandi brand al mondo.
+aside-description: Antonio ama fare scatti in giro per il mondo, specialmente, scatti di ritratti, foto aeree e pubblicitarie. Antonio lavora con alcuni dei più grandi brand al mondo.
 aside-button-link: /about
 aside-button-text: Contattami
 
