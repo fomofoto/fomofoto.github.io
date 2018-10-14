@@ -2,6 +2,7 @@
 layout: post
 title: Perché un'azienda dovrebbe collaborare con un fotografo per migliorare il suo business
 description: Collaborare con un fotografo professionista in ques'era digitale è necessario per creare materiale pubblicitario e contenuti di qualità
+img-title: Businessman fotografato mentre va al lavoro
 img: /assets/images/post/collaborare-con-un-fotografo-per-migliorare-il-tuo-business.jpg
 image: /assets/images/post/collaborare-con-un-fotografo-per-migliorare-il-tuo-business.jpg
 type: 'BlogPosting'
