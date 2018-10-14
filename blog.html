@@ -23,7 +23,7 @@ type: 'article'
 
       <div class="mb3 md-mx0">
         <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><h2 class="h3">{{ post.title }}</h2></a>        
-        <p class="mb2">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
+        <p class="mb2">{{ post.description | remove: '<p>' | remove: '</p>' }}</p>
         <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" class="commerce-blog-link inline-block h7 md-mb4">Leggi tutto</a>
       </div>
       </article>
