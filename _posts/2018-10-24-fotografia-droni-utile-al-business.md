@@ -20,6 +20,8 @@ Ma ti sei mai chiesto cosa stessero facendo con quel drone esattamente?
 A volte sono gestiti da hobbisti che amano giocare con nuove ed entusiasmanti tecnologie. Ma ora più che mai, le aziende stanno sfruttando le nuove prospettive offerte dalla fotografia aerea con i droni.
 
 ## Cos'è la fotografia aerea con i droni?
+
+## Cos'è la fotografia aerea con i droni?
 ---
 <amp-img alt="persona che comanda un drone tramite il telecomando remoto" title="Pilota remoto drone" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-24-fotografia-droni-utile-al-business/pilota-remoto.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
 ---
@@ -33,6 +35,8 @@ Ma quando sono equipaggiati con una fotocamera di alta qualità, questi droni ca
 I droni consentono la visione in prima persona di posti che è altrimenti sarebbero impossibili da raggiungere, e inoltre, può tollerare una serie di ambienti difficili, che sarebbero difficili da gestire per gli esseri umani.
 
 ## I vantaggi della fotografia con drone per il tuo business
+
+## I vantaggi della fotografia con drone per il tuo business
 ---
 <amp-img alt="Fotografia aerea ad un furgone in un incrocio, tramite un drone" title="Fotografia aerea ad un incrocio e un furgone" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-24-fotografia-droni-utile-al-business/furgone-drone.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
 ---
@@ -54,6 +58,8 @@ Inoltre, le persone adorano i contenuti video. E quando quel video o alcune part
 I video catturati dalle telecamere dei droni sono al di sopra e al di là della normale cinematografia. Gli angoli e le inquadrature ottenibili con un drone erano una volta fuori portata a causa di costi esorbitanti o totalmente impossibili. 
 
 Questa tecnologia innovativa unita alla creatività di un esperto team di marketing ha il potenziale per dare alla tua pubblicità un netto vantaggio in qualità e coinvolgimento rispetto alla concorrenza.
+
+## Industrie innamorate della fotografia dei droni
 
 ## Industrie innamorate della fotografia dei droni
 ---
