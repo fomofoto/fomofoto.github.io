@@ -55,8 +55,6 @@ I video catturati dalle telecamere dei droni sono al di sopra e al di là della 
 
 Questa tecnologia innovativa unita alla creatività di un esperto team di marketing ha il potenziale per dare alla tua pubblicità un netto vantaggio in qualità e coinvolgimento rispetto alla concorrenza.
 
-## Industrie innamorate della fotografia dei droni
-
 ## Industrie innamorate della fotografia dei droni
 ---
 <amp-img alt="Fotografia aerea di due macchine agricole in campagna che lavorano in un campo di coltivazione" title="Fotografia macchine agricole in campagna" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-24-fotografia-droni-utile-al-business/campagna-drone.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
