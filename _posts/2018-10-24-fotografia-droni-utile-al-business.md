@@ -19,8 +19,6 @@ Ma ti sei mai chiesto cosa stessero facendo con quel drone esattamente?
 
 A volte sono gestiti da hobbisti che amano giocare con nuove ed entusiasmanti tecnologie. Ma ora più che mai, le aziende stanno sfruttando le nuove prospettive offerte dalla fotografia aerea con i droni.
 
-## Cos'è la fotografia aerea con i droni?
-
 ## Cos'è la fotografia aerea con i droni?
 ---
 <amp-img alt="persona che comanda un drone tramite il telecomando remoto" title="Pilota remoto drone" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-24-fotografia-droni-utile-al-business/pilota-remoto.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
@@ -33,8 +31,6 @@ A seconda delle dimensioni e del modello del drone, può gestire un'ampia gamma 
 Ma quando sono equipaggiati con una fotocamera di alta qualità, questi droni catturano immagini aeree coinvolgenti del paesaggio e delle sue numerose caratteristiche, da prospettive differenti, che raramente si possono vedere nella normalità. 
 
 I droni consentono la visione in prima persona di posti che è altrimenti sarebbero impossibili da raggiungere, e inoltre, può tollerare una serie di ambienti difficili, che sarebbero difficili da gestire per gli esseri umani.
-
-## I vantaggi della fotografia con drone per il tuo business
 
 ## I vantaggi della fotografia con drone per il tuo business
 ---
@@ -61,7 +57,7 @@ Questa tecnologia innovativa unita alla creatività di un esperto team di market
 
 ## Industrie innamorate della fotografia dei droni
 
-## Industrie innamorate della fotografia dei droni
+## Industrie innamorate della fotografia dei droni
 ---
 <amp-img alt="Fotografia aerea di due macchine agricole in campagna che lavorano in un campo di coltivazione" title="Fotografia macchine agricole in campagna" src="{{ site.url }}{{ site.baseurl }}{% link assets/images/post/2018-10-24-fotografia-droni-utile-al-business/campagna-drone.jpg %}" width="750" height="427" layout="responsive"><div placeholder="" class="commerce-loader"></div>  </amp-img>
 ---
