@@ -7,7 +7,7 @@ img: /assets/images/post/2018-10-12-collaborare-con-un-fotografo-per-migliorare-
 image: /assets/images/post/2018-10-12-collaborare-con-un-fotografo-per-migliorare-il-tuo-business/collaborare-con-un-fotografo-per-migliorare-il-tuo-business.jpg
 type: 'BlogPosting'
 tags: fotografia business servizi aziende
-sidebar: 'test'
+
 
 ---
 
