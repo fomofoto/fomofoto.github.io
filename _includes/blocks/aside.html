@@ -7,26 +7,26 @@
         <a href="{{ site.aside-button-link }}" class="commerce-blog-link inline-block h7 md-mb4">
             {{ site.aside-button-text }}
         </a>
-    {% elsif page.sidebar.type == 'test' %}       
+    {% elsif page.sidebar.type == 'urban' %}       
         <h1 class="h5 md-pb2">
             {% if page.sidebar.title %}
                 {{ page.sidebar.title }}
             {% elsif page.sidebar.title == null %}
-                Test
+                Fotografia Urban
             {% endif %}</h1>
         <amp-img src="
             {% if page.sidebar.image %}
                 {{ site.url }}{{ site.baseurl }}/assets/images/{{ page.sidebar.image }}
-            {% elsif page.sidebar.image == null %}Test
-                {{ site.url }}{{ site.baseurl }}/assets/images/image-test.jpg
+            {% elsif page.sidebar.image == null %}
+                {{ site.url }}{{ site.baseurl }}/assets/images/sidebar-urban.jpg
             {% endif %}
-        " width="300" height="200" alt="Antonio Trento photographer" layout="responsive"></amp-img>
+        " width="300" height="200" alt="Fotografia urbana fomofoto" layout="responsive"></amp-img>
         <hr>
         <p class="mb2">
             {% if page.sidebar.description %}
                 {{ page.sidebar.description }}
             {% elsif page.sidebar.description == null %}
-                Descrizione Test
+                La fotografia urbana descrive storie delle metropoli e delle persone. Chiedi a fomofoto come potrebbe aiutarti a realizzare il tuo servizio.
             {% endif %}
         </p>
         <a href="
@@ -42,6 +42,111 @@
             Scopri
         {% endif %}
         </a>
+        {% elsif page.sidebar.type == 'portrait' %}       
+        <h1 class="h5 md-pb2">
+            {% if page.sidebar.title %}
+                {{ page.sidebar.title }}
+            {% elsif page.sidebar.title == null %}
+                Ritratti con fomofoto
+            {% endif %}</h1>
+        <amp-img src="
+            {% if page.sidebar.image %}
+                {{ site.url }}{{ site.baseurl }}/assets/images/{{ page.sidebar.image }}
+            {% elsif page.sidebar.image == null %}
+                {{ site.url }}{{ site.baseurl }}/assets/images/sidebar-ritratti.jpg
+            {% endif %}
+        " width="300" height="200" alt="Fotografia di ritratti fomofoto" layout="responsive"></amp-img>
+        <hr>
+        <p class="mb2">
+            {% if page.sidebar.description %}
+                {{ page.sidebar.description }}
+            {% elsif page.sidebar.description == null %}
+                Grazie alla fotografia di ritratti anche tu potrai avere il tuo personale servizio fotografico. Sia che tu lo desideri per te stesso, per un book o per un evento di business.
+            {% endif %}
+        </p>
+        <a href="
+            {% if page.sidebar.btn-link %}
+                {{ site.url }}{{ site.baseurl }}{{ page.sidebar.btn-link }}
+            {% elsif page.sidebar.btn-link == null %}
+                {{ site.url }}{{ site.baseurl }}/portrait
+            {% endif %}    
+        " class="commerce-blog-link inline-block h7 md-mb4">
+        {% if page.sidebar.btn-link %}
+            {{ page.sidebar.btn-text }}
+        {% elsif page.sidebar.btn-text == null %}
+            Scopri
+        {% endif %}
+        </a>
+        {% elsif page.sidebar.type == 'event' %}       
+        <h1 class="h5 md-pb2">
+            {% if page.sidebar.title %}
+                {{ page.sidebar.title }}
+            {% elsif page.sidebar.title == null %}
+                Eventi con fomofoto
+            {% endif %}</h1>
+        <amp-img src="
+            {% if page.sidebar.image %}
+                {{ site.url }}{{ site.baseurl }}/assets/images/{{ page.sidebar.image }}
+            {% elsif page.sidebar.image == null %}
+                {{ site.url }}{{ site.baseurl }}/assets/images/sidebar-eventi.jpg
+            {% endif %}
+        " width="300" height="200" alt="Fotografia di ritratti fomofoto" layout="responsive"></amp-img>
+        <hr>
+        <p class="mb2">
+            {% if page.sidebar.description %}
+                {{ page.sidebar.description }}
+            {% elsif page.sidebar.description == null %}
+                Grazie a fomofoto potrai inserire nel tuo evento di business oppure alle tue feste un fotografo per creare per te un servizio fotografico professionale.
+            {% endif %}
+        </p>
+        <a href="
+            {% if page.sidebar.btn-link %}
+                {{ site.url }}{{ site.baseurl }}{{ page.sidebar.btn-link }}
+            {% elsif page.sidebar.btn-link == null %}
+                {{ site.url }}{{ site.baseurl }}/event
+            {% endif %}    
+        " class="commerce-blog-link inline-block h7 md-mb4">
+        {% if page.sidebar.btn-link %}
+            {{ page.sidebar.btn-text }}
+        {% elsif page.sidebar.btn-text == null %}
+            Scopri
+        {% endif %}
+        </a> 
+        {% elsif page.sidebar.type == 'drone' %}       
+        <h1 class="h5 md-pb2">
+            {% if page.sidebar.title %}
+                {{ page.sidebar.title }}
+            {% elsif page.sidebar.title == null %}
+                Fotografia Aerea
+            {% endif %}</h1>
+        <amp-img src="
+            {% if page.sidebar.image %}
+                {{ site.url }}{{ site.baseurl }}/assets/images/{{ page.sidebar.image }}
+            {% elsif page.sidebar.image == null %}
+                {{ site.url }}{{ site.baseurl }}/assets/images/sidebar-drone.jpg
+            {% endif %}
+        " width="300" height="200" alt="Fotografia aerea fomofoto" layout="responsive"></amp-img>
+        <hr>
+        <p class="mb2">
+            {% if page.sidebar.description %}
+                {{ page.sidebar.description }}
+            {% elsif page.sidebar.description == null %}
+                Grazie a fomofoto potrai avere anche tu un video o un servizio fotografico aereo tramite l'utilizzo di un drone. Comunica al tuo pubblico da un'altra prospettiva con la fotografia aerea.
+            {% endif %}
+        </p>
+        <a href="
+            {% if page.sidebar.btn-link %}
+                {{ site.url }}{{ site.baseurl }}{{ page.sidebar.btn-link }}
+            {% elsif page.sidebar.btn-link == null %}
+                {{ site.url }}{{ site.baseurl }}/drone
+            {% endif %}    
+        " class="commerce-blog-link inline-block h7 md-mb4">
+        {% if page.sidebar.btn-link %}
+            {{ page.sidebar.btn-text }}
+        {% elsif page.sidebar.btn-text == null %}
+            Scopri
+        {% endif %}
+        </a>                        
     {% endif %}     
     <h3 class="h7 block pt3">Seguimi</h3>
     <ul class="ampstart-social-follow list-reset flex justify-around items-center flex-wrap m0 mb4">
