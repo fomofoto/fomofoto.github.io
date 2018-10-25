@@ -7,13 +7,13 @@ img: /assets/images/post/2018-10-12-collaborare-con-un-fotografo-per-migliorare-
 image: /assets/images/post/2018-10-12-collaborare-con-un-fotografo-per-migliorare-il-tuo-business/collaborare-con-un-fotografo-per-migliorare-il-tuo-business.jpg
 type: 'BlogPosting'
 tags: fotografia business servizi aziende
-sidebar: 
-    type: 'test'
-    title: Prova
-    image: myself-cap-300x200.jpg
-    description: prova descrizione
-    btn-text: Prova bottone
-    btn-link: /urban
+# sidebar: 
+#    type: 'test'
+#    title: Prova
+#    image: myself-cap-300x200.jpg
+#    description: prova descrizione
+#    btn-text: Prova bottone
+#    btn-link: /urban
 ---
 
 Se lavori in un'azienda che opera in modo corretto sul mercato sai molto bene quanto è importante **comunicare un messaggio aziendale ai clienti**. Indipendentemente dal tipo di media che utilizzi, come il web o i canali tradizionali, sarai d'accordo con me che serve un **fotografo**.
