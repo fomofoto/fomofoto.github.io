@@ -9,8 +9,6 @@ tags: fotografia business servizi aziende drone
 sidebar: 
     type: 'drone'
     image: myself-cap-300x200.jpg
-
-
 ---
 
 Grazie alla **fotografia aerea** ed i droni puoi portare ad un livello superiore la tua comunicazione aziendale e la pubblicità dei tuoi servizi.
