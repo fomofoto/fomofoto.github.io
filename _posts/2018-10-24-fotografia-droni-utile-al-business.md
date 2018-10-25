@@ -6,7 +6,7 @@ img: /assets/images/post/2018-10-24-fotografia-droni-utile-al-business/volo-dron
 image: /assets/images/post/2018-10-24-fotografia-droni-utile-al-business/volo-drone.jpg
 type: 'BlogPosting'
 tags: fotografia business servizi aziende drone 
- sidebar: 
+sidebar: 
     type: 'drone'
     image: myself-cap-300x200.jpg
 #    title:     
