@@ -8,8 +8,9 @@ type: 'BlogPosting'
 tags: fotografia business servizi aziende drone 
  sidebar: 
     type: 'drone'
-#    title: 
     image: myself-cap-300x200.jpg
+#    title: 
+    
 #    description: 
 #    btn-text: 
 #    btn-link: 
