@@ -81,7 +81,7 @@ E mentre queste industrie usano la fotografia di droni ogni giorno per espandere
 
 La verità è che i droni non sono più solo alcuni gadget o novità. Stanno letteralmente elevando il modo in cui i marketer si avvicinano alla creazione di contenuti.
 
-Grazie alle nuove tecnologie anche le piccole e medie imprese sono in grado di migliorare di molto la propria cominicazione visuale e la pubblicità grazie alla [**fotografia aerea**]({{ site.url }}{{ site.baseurl }}/drone/) che ti permette di esplorare nuove prospettive per la tua comunicazione visuale.
+Grazie alle nuove tecnologie anche le piccole e medie imprese sono in grado di migliorare di molto la propria cominicazione visuale e la pubblicità grazie alla **[fotografia aerea]({{ site.url }}{{ site.baseurl }}/drone/)** che ti permette di esplorare nuove prospettive per la tua comunicazione visuale.
 
 Noi tutti sappiamo quanto le aziende abbiano bisogno di nuovi modi per rivalutare la propria immagine e descrivere la loro storia.
 
