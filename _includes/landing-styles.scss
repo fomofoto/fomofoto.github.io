@@ -1117,8 +1117,8 @@
   /* Categories
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   
-  .categories {
-    background-image: url(../assets/images/values-bg.jpg);
+  .categories { 
+    background-image: url(../assets/images/{% if page.bgimage %}{{ page.bgimage }}{% else %}{{ site.bgimage }}{% endif %});
     background-size: cover;
     color: #fff;
     .section-description {
