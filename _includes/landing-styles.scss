@@ -1118,7 +1118,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   
   .categories { 
-    background-image: url(../assets/images/{% if page.bgimage %}{{ page.bgimage }}{% else %}{{ site.bgimage }}{% endif %});
+    background-image: url(../assets/images/{{ page.bgimage }});
     background-size: cover;
     color: #fff;
     .section-description {
