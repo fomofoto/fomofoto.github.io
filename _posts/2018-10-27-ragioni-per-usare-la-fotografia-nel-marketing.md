@@ -23,7 +23,7 @@ Con l'enorme volume di informazioni condivise online - 1,5 miliardi di pagine we
 
 Il cervello umano può elaborare solo una quantità limitata di informazioni in un dato momento. I dati che possono essere elaborati molto più velocemente, come **una fotografia avvincente**, avranno sempre la precedenza.
 
-## 3 Migliora la comunicazione non verbale
+## 3 Migliora la cominicazione non verbale
 
 Con il 93% di tutte le comunicazioni umane non verbali, combinando elementi visivi con testo ben scritto è un modo eccellente per gli operatori di marketing di **catturare l'immaginazione del loro pubblico di destinazione**.
 
@@ -51,7 +51,7 @@ Siamo in una nuova era di marketing in cui **un brand è definito da coloro che 
 
 Gli **uomini sono condizionati a formulare giudizi affrettati**, a volte a livello subconscio. Un aspetto professionale, compresa una fotografia ben fatta che mostra un prodotto o un servizio nel contesto, **crea fiducia**.
 
-## 10 Guida le vendite 
+## 10 Guida le vendite
 
 Esiste un collegamento diretto tra l'utilizzo di immagini di alta qualità nel marketing e la crescita delle vendite. **Le fotografie aiutano i consumatori a visualizzare se stessi** utilizzando un prodotto o un servizio e consentono loro di immaginare di **migliorare la loro vita in qualche modo**.
 
