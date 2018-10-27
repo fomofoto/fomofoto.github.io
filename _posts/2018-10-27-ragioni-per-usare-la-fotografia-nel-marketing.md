@@ -2,12 +2,12 @@
 layout: post
 title: 10 ragioni percui la fotografia è assolutamente necessaria nei processi di marketing moderni
 description: La fotografia è diventato uno strumenti di marketing potente ai giorni nostri e le piccole e medie imprese non possono più sottovalutare questo fatto, ti descrivo 10 ragioni percui non puoi non prenderla in considerazione
-img-title: Businessman fotografato mentre va al lavoro
+img-title: Immagine processo di marketing
 img: /assets/images/post/2018-10-27-ragioni-per-usare-la-fotografia-nel-marketing/foto-marketing.jpg
 image: /assets/images/post/2018-10-27-ragioni-per-usare-la-fotografia-nel-marketing/foto-marketing.jpg
 type: 'BlogPosting'
 tags: fotografia business servizi aziende
- sidebar: 
+sidebar: 
     type: 'event'
 ---
 
