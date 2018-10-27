@@ -1140,13 +1140,7 @@
       right: 3rem;
       max-height: 362px;
       z-index: 3;
-      + .phone {
-        top: -6rem;
-        display: block;
-        max-width: 73.8%;
-        right: 0;
-        z-index: 2;
-        max-height: 338px;
+      
       }
     }
     .hero-heading {
@@ -1177,10 +1171,7 @@
       top: -14rem;
       right: 5rem;
       max-height: 510px;
-      + .phone {
-        top: -12rem;
-        max-height: 472px;
-      }
+      
     }
     .categories {
       padding: 15rem 0 8rem;
@@ -1201,9 +1192,7 @@
     .phone {
       top: -16rem;
       max-height: 615px;
-      + .phone {
-        top: -14rem;
-        max-height: 570px;
+      
       }
     }
   }
