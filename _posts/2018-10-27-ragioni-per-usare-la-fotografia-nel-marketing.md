@@ -15,7 +15,7 @@ Il potere della comunicazione visiva ha raggiunto un livello elevato con l'avven
 
 Ecco perché:
 
-## 1 Attira l'attenzione 
+## 1 Attira l'attenzione
 
 Con l'enorme volume di informazioni condivise online - 1,5 miliardi di pagine web di contenuti - i professionisti del marketing devono fare tutto il possibile per **attirare l'attenzione dei loro destinatari**. Gli elementi visivi aumentano la disponibilità delle persone a leggere i contenuti di uno sbalorditivo 80%.
 
