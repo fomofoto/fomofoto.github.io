@@ -6,7 +6,7 @@ img-title: Immagine processo di marketing
 img: /assets/images/post/2018-10-27-ragioni-per-usare-la-fotografia-nel-marketing/foto-marketing.jpg
 image: /assets/images/post/2018-10-27-ragioni-per-usare-la-fotografia-nel-marketing/foto-marketing.jpg
 type: 'BlogPosting'
-tags: fotografia business servizi aziende
+tags: fotografia business servizi aziende marketing
 sidebar: 
     type: 'event'
 ---
