@@ -84,13 +84,7 @@
             {% elsif page.sidebar.title == null %}
                 Eventi con fomofoto
             {% endif %}</h1>
-        <amp-img src="
-            {% if page.sidebar.image %}
-                {{ site.url }}{{ site.baseurl }}/assets/images/{{ page.sidebar.image }}
-            {% elsif page.sidebar.image == null %}
-                {{ site.url }}{{ site.baseurl }}/assets/images/sidebar-eventi.jpg
-            {% endif %}
-        " width="300" height="200" alt="Fotografia di ritratti fomofoto" layout="responsive"></amp-img>
+        <amp-img src="{% if page.sidebar.image %}{{ site.url }}{{ site.baseurl }}/assets/images/{{ page.sidebar.image }}{% elsif page.sidebar.image == null %}{{ site.url }}{{ site.baseurl }}/assets/images/sidebar-eventi.jpg{% endif %}" width="300" height="200" alt="Fotografia di ritratti fomofoto" layout="responsive"></amp-img>
         <hr>
         <p class="mb2">
             {% if page.sidebar.description %}
