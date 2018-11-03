@@ -38,7 +38,8 @@
 
   <style amp-custom>
   {% capture include_to_scssify %}
-    {% include landing-styles.scss %}   
+    {% include landing-styles.scss %}
+    {{ page.custom-head }}   
   {% endcapture %}
   {{ include_to_scssify | scssify }}
   </style>
