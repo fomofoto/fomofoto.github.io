@@ -1,0 +1,23 @@
+<!doctype html>
+<html ⚡ lang="{{ site.language }}">
+  {% include head-landing2.html %}
+  <body>
+      {% if site.google.tagmanager_id %}
+        {% include JB/tag-manager-body.html %}
+      {% endif %}
+
+      
+      
+    
+  
+      {{ content }}
+      
+        
+  
+      
+        
+      {% if site.analytics_id %}
+          {% include analytics.html %}
+      {% endif %}
+  </body>
+</html>
