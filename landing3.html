@@ -54,15 +54,6 @@ type: 'WebPage'
       <div class="col col-6 border">.col.col-6</div>
     </div>
     <div class="clearfix mxn2 border">
-      <div class="sm-col sm-col-6 md-col-5 lg-col-4 px2"><div class="border">Unnested</div></div>
-      <div class="sm-col sm-col-6 md-col-7 lg-col-8 px2">
-        <div class="clearfix mxn2">
-          <div class="col col-6 px2"><div class="border">Nested</div></div>
-          <div class="col col-6 px2"><div class="border">Nested</div></div>
-        </div>
-      </div>
-    </div>
-    <div class="clearfix mxn2 border">
       <div class="col-8 px2 mx-auto">
         <div class="border">Centered Column</div>
       </div>
@@ -134,7 +125,7 @@ type: 'WebPage'
         </div>
 
         <div class="clearfix border">
-          <div class="sm-col sm-col-12 md-col-6 lg-col-6 border">
+          <div class="xs-hide sm-hide md-hide lg-col-6 border">
                 <amp-carousel lightbox
                   width="400"
                   height="268"
@@ -167,6 +158,26 @@ type: 'WebPage'
                 <hr class="bg-orange bw0 mvm" style="width: 64px; height: 4px;">
               </div>
             </div>
+            <div class="sm-col sm-col-12 md-col-6 lg-hide border">
+                <amp-carousel lightbox
+                  width="400"
+                  height="268"
+                  layout="responsive"
+                  type="slides">
+                  <amp-img src="{{ site.url }}/{{ site.baseurl }}assets/images/bike.jpg"
+                    width="400"
+                    height="268"
+                    layout="responsive"></amp-img>
+                  <amp-img src="{{ site.url }}/{{ site.baseurl }}assets/images/prezzels.jpg"
+                    width="400"
+                    height="268"
+                    layout="responsive"></amp-img>
+                  <amp-img src="{{ site.url }}/{{ site.baseurl }}assets/images/sandpath.jpg"
+                    width="400"
+                    height="268"
+                    layout="responsive"></amp-img>
+                </amp-carousel>              
+            </div>                      
 
         </div>
    
