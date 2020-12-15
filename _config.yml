@@ -82,10 +82,10 @@ twitter:
   username: fomofoto
 
 facebook:
- app_id: 509727322725898 #the app id from https://developers.facebook.com/
- admins: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
- publisher: 1010094929028825 #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
- pixel: 1016707998519594
+ app_id:  #the app id from https://developers.facebook.com/
+ admins:  #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
+ publisher:  #the page ID from https://www.facebook.com/pg/lantoniotrento (page-link), left click about scroll down and find 'Page ID'
+ pixel: 
 
  
 
