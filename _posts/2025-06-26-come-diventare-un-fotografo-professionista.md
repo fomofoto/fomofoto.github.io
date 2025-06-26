@@ -4,8 +4,8 @@ date: 2025-06-26 07:30 +0200
 layout: post
 description: "Scopri come diventare un fotografo professionista con la nostra guida completa: esplora l'attrezzatura fotografica e crea un portfolio fotografico perfetto!"
 img-title: "Come diventare un fotografo professionista"
-img: assets/images/Come_diventare_un_fotografo_professionista.jpg
-image: assets/images/Come_diventare_un_fotografo_professionista.jpg
+img: /assets/images/Come_diventare_un_fotografo_professionista.jpg
+image: /assets/images/Come_diventare_un_fotografo_professionista.jpg
 type: 'BlogPosting'
 tags: []
 ---
