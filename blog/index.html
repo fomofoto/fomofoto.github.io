@@ -1,13 +1,58 @@
 ---
 layout: default
-title: "fomofoto Blog"
+title: "Blog di Fomofoto"
 description: "Notizie e informazioni dal mondo della fotografia dia fomofoto"
 permalink: /blog/
-img: assets/images/social/home.jpg
-image: assets/images/social/home.jpg
-custom-head:
-  type: 'article'
 ---
+
+<main id="content" role="main" class="main md-flex flex-wrap items-start">
+  <section class="commerce-blog-wrapper col-12 md-col-8 px2 pt2 pb3 md-px4 md-pt1 md-pb3">
+    <h1 class="h2 mb4">Blog di Fomofoto</h1>
+
+    {% for post in paginator.posts %}
+      <article class="mb4">
+        {% if post.image %}
+          <a href="{{ post.url | relative_url }}">
+            <img src="{{ post.image }}" alt="{{ post.title | escape }}" class="mb3" style="width:100%; height:auto;">
+          </a>
+        {% endif %}
+        <div>
+          <a href="{{ post.url | relative_url }}">
+            <h2 class="h3">{{ post.title }}</h2>
+          </a>
+          <p class="text-muted mb2">{{ post.date | date: "%d %B %Y" }}</p>
+          <p class="mb2">{{ post.description | strip_html }}</p>
+          <a href="{{ post.url | relative_url }}" class="commerce-blog-link h7">Leggi tutto</a>
+        </div>
+      </article>
+    {% endfor %}
+
+    <nav class="pagination mt4 mb4 flex justify-center items-center flex-wrap gap2" aria-label="Navigazione blog">
+      {% if paginator.previous_page %}
+        <a class="h7 commerce-blog-link px2 py1 border" href="{{ paginator.previous_page_path | relative_url }}">&laquo; Indietro</a>
+      {% else %}
+        <span class="h7 commerce-blog-link px2 py1 border text-muted">&laquo; Indietro</span>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <span class="h7 px2 py1 border bg-black white">{{ page }}</span>
+        {% else %}
+          <a class="h7 commerce-blog-link px2 py1 border" href="{% if page == 1 %}/blog/{% else %}/blog/page{{ page }}/{% endif %}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <a class="h7 commerce-blog-link px2 py1 border" href="{{ paginator.next_page_path | relative_url }}">Avanti &raquo;</a>
+      {% else %}
+        <span class="h7 commerce-blog-link px2 py1 border text-muted">Avanti &raquo;</span>
+      {% endif %}
+    </nav>
+  </section>
+
+  {% include blocks/aside.html %}
+</main>
+
 
 <main id="content" role="main" class="main md-flex flex-wrap items-start">
   <section class="commerce-blog-wrapper col-12 md-col-8 px2 pt2 pb3 md-px4 md-pt1 md-pb3">
