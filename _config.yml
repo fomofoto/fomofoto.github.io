@@ -99,9 +99,14 @@ markdown: kramdown
 kramdown:
   parse_block_html: true
 
+paginate: 10  # numero di post per pagina
+paginate_path: "/blog/page:num"
+
+
 gems:
   - jekyll-paginate
   - jekyll-seo-tag
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-paginate

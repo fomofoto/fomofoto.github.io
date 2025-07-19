@@ -1,0 +1,67 @@
+---
+layout: blog
+title: fomofoto Blog
+description: Notizie e informazioni dal mondo della fotografia dia fomofoto
+permalink: /blog/
+img: assets/images/social/home.jpg
+image: assets/images/social/home.jpg
+custom-head:
+type: 'article'
+---
+
+<main id="content" role="main" class="main md-flex flex-wrap items-start">
+
+  <section class="commerce-blog-wrapper col-12 md-col-8 px2 pt2 pb3 md-px4 md-pt1 md-pb3">
+    <h1 class="xs-hide sm-hide md-commerce-header h3 md-py2 md-mb4">Blog di Fomofoto</h1>
+
+    {% for post in paginator.posts %}
+      <article>
+        {% if post.image %}
+          <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+            <amp-img 
+              class="mb3" 
+              src="{{ post.image }}" 
+              srcset="{{ post.image }} 750w,{{ post.image }} 1280w" 
+              width="750" 
+              height="427" 
+              layout="responsive" 
+              alt="{{ post.title | escape }}" 
+              noloading>
+              <div placeholder class="commerce-loader"></div>
+            </amp-img>
+          </a>
+        {% endif %}
+
+        <div class="mb3 md-mx0">
+          <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+            <h2 class="h3">{{ post.title }}</h2>
+          </a>
+          <p class="mb2">{{ post.description | remove: '<p>' | remove: '</p>' }}</p>
+          <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" class="commerce-blog-link inline-block h7 md-mb4">Leggi tutto</a>
+        </div>
+      </article>
+    {% endfor %}
+
+    <!-- Paginazione compatibile AMP -->
+    <nav class="pagination mt4 flex flex-wrap gap2 items-center justify-center">
+      {% if paginator.previous_page %}
+        <a class="h7 commerce-blog-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | prepend: site.url }}">&larr; Post più recenti</a>
+      {% endif %}
+
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <span class="h7 current">{{ page }}</span>
+        {% else %}
+          <a class="h7 commerce-blog-link" href="{{ site.baseurl }}{% if page > 1 %}/blog/page{{ page }}/{% else %}/blog/{% endif %}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+
+      {% if paginator.next_page %}
+        <a class="h7 commerce-blog-link" href="{{ paginator.next_page_path | prepend: site.baseurl | prepend: site.url }}">Post più vecchi &rarr;</a>
+      {% endif %}
+    </nav>
+  </section>
+
+  {% include blocks/aside.html %}
+
+</main>
