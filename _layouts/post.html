@@ -2,9 +2,10 @@
 <html ⚡ lang="{{ site.language }}">
   {% include head-post.html %}
   <body>
+    <!--
     <amp-auto-ads type="adsense"
         data-ad-client="ca-pub-9204963049240271">
-</amp-auto-ads>
+    </amp-auto-ads>-->
       {% if site.google.tagmanager_id %}
         {% include JB/tag-manager-body.html %}
       {% endif %}
@@ -16,8 +17,8 @@
           <section class="commerce-blog-wrapper col-12 md-col-8 px2 pt2 pb3 md-px4 md-pt1 md-pb3">
               <h1 class="xs-hide sm-hide md-commerce-header h2 md-py2 md-mb4">{{ page.title }}</h1>      
               <article>
-                  <amp-img class="mb3" src="{{ site.url }}{{ site.baseurl }}{{ page.image }}" srcset="{{ site.url }}{{ site.baseurl }}{{ page.image }} 750w,{{ site.url }}{{ site.baseurl }}{{ page.image }} 1280w" width="750" height="427" layout="responsive" alt="{{ page.description }}" title="{% if page.img-title %}{{ page.img-title }}{% else %}{{ page.title }}{% endif %}" noloading="">
-                  <div placeholder="" class="commerce-loader"></div>  </amp-img>
+                  <amp-img class="mb3" src="{{ site.url }}{{ site.baseurl }}{{ page.image }}" srcset="{{ site.url }}{{ site.baseurl }}{{ page.image }} 750w,{{ site.url }}{{ site.baseurl }}{{ page.image }} 1280w" width="750" height="427" layout="responsive" alt="{{ page.description }}" title="{% if page.img-title %}{{ page.img-title }}{% else %}{{ page.title }}{% endif %}" noloading=""></amp-img>
+                  <div placeholder="" class="commerce-loader"></div> 
                   
                   <div class="mb3 md-mx0">                                            
                       <div class="mb2">{{ content }}</div>
