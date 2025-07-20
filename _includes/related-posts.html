@@ -1,0 +1,36 @@
+{% assign current_url = page.url %}
+{% assign current_date = page.date %}
+{% assign related_posts = "" | split: "" %}
+
+{% if page.related %}
+  {% for rel_url in page.related %}
+    {% assign rel_post = site.posts | where: "url", rel_url | first %}
+    {% if rel_post %}
+      {% assign related_posts = related_posts | push: rel_post %}
+    {% endif %}
+  {% endfor %}
+{% else %}
+  {% assign older_posts = site.posts | where_exp: "item", "item.date < page.date" | sort: "date" | reverse %}
+  {% assign newer_posts = site.posts | where_exp: "item", "item.date > page.date" | sort: "date" %}
+  {% assign fallback_posts = older_posts | concat: newer_posts %}
+  {% assign fallback_posts = fallback_posts | reject: "url", current_url %}
+  {% assign related_posts = fallback_posts | slice: 0, 3 %}
+{% endif %}
+
+{% if related_posts.size > 0 %}
+<section class="related-posts" style="margin-top: 3rem; border: 1px solid #ccc; border-radius: 8px;">
+  <header style="background-color: #222; color: #fff; padding: 1rem; font-weight: bold; font-size: 1rem;">
+    🔗 Articoli correlati
+  </header>
+  <ul style="list-style: none; padding: 0; margin: 0;">
+    {% for post in related_posts %}
+      <li style="border-top: 1px solid #ddd; padding: 1rem;">
+        <a href="{{ post.url | relative_url }}" style="text-decoration: none; color: #0066cc; font-size: 1rem;">
+          {{ post.title }}
+        </a><br>
+        <small style="color: #666;">{{ post.date | date: "%d %b %Y" }}</small>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
